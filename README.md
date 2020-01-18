@@ -50,7 +50,7 @@ More than the dataset folder, the following two files are generated:
 For extracting the AndrODet features values + number of strings in each apk from the PRAGuard dataset.
 
 The extracted feature values are currently in praguard-androdet folder. If you want to extract them again, just run gen-praguard-androdet-features-values.py in its folder(praguard-androdet) with **python 2.7** passing the following two arguments:
- * *dataset* : folder containing the "STRING_ENCRYPTION" apks of the praguard dataset
+ * *--dataset* : folder containing the "STRING_ENCRYPTION" apks of the praguard dataset
  * *--dexdump_dir* : parent dir of the dexdump tool
 ### Output
 The following two files are generated:
